@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  font-size: 18px;
+  background-color: #f5f6f7;
+}
+
+h1{
+  max-width:  940px;
+  font-size: 2.5em;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contenedor-principal{
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.agradecimientos{
+  min-width: 600px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: end;
+  text-align: end;
+  margin: 7px;
+  background-color: aliceblue;
+}
+.mi-nombre{
+  color: red;
+  margin-right: 10px;
+}
+.empresa-freeCodeCamp{
+  color: red;
+}
+
+a:visited{
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: rgb(72, 154, 255);
+}
